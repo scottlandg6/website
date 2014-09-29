@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	background-color: #33363C;
+	background-size: fill;
+	margin: 0;
+	padding: 0;
+}
+html {
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Varela Round', sans-serif;
+  	text-align: center;
+}
+
+.header {
+	background-color: #4B2644;
+	height: 155px;
+}
+
+.footer {
+	background-color: #1A0753;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+}
+ul.img-list {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+ul.img-list img {
+	border-radius: 50%;
+	display: block;
+	width: 250px;
+	height:250px;
+}
+ul.img-list li {
+	display: inline-block;
+	height: 250px;
+	margin: 0em 1.5em 1.5em 0em;
+	position:relative;
+	width: 250px;
+	border-radius:50%;
+}
+span.text-content {
+	font-family: "Open Sans", sans-serif;
+	font-size: 2em;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	cursor: pointer;
+	display: table;
+	height: 250px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 250px;
+	opacity: 0;
+	border-radius:50%;
+	-webkit-transition: opacity 500ms;
+  	-moz-transition: opacity 500ms;
+  	-o-transition: opacity 500ms;
+  	transition: opacity 500ms;
+}
+span.text-content span{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content{
+	opacity:1;
+}
+.image {
+	text-align: center;
+}
+
+.horizontalLine {
+	height: 2px;
+	background: #959595;
+	border: none;
+	text-align: center;
+	margin: 0em 0em 0em 0em;
+}
+.paragraph1 {
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	font-size: 1.0em;
+	text-align: left;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+.nameLogoSubtitle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.2em;
+	color: green;
+	text-align: center;
+	margin-top: -1.5em;
+}
+.logoheader {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.2em;
+	text-align: right;
+}
+h1 {
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+  	font-size: 5.5rem;
+  	letter-spacing: -1.1rem;
+}
+
+	.char1 {
+		color: #AB1795;
+	}
+	.char2 {
+		color:#167CFB;
+	}
+	.char3 {
+		color: #37D86E;
+	}
+	.char4 {
+		color: #DA7C5F;
+	}
+	.char5 {
+		color: #B020AD;
+	}
+	.char7 {
+		color:#1685FB;
+	}
+	.char8 {
+		color:#FA8072;
+	}
+	.char9 {
+		color:#EE82EE;
+	}
+} 
+
